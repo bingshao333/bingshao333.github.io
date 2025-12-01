@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "bingshao333"
+title                    : "Bing Shao 邵兵"
 title_separator          : "-"
-name                     : &name "bingshao333"
-description              : &description "bingshao333's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Bing Shao"
+description              : &description "AI Researcher"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://bingshao333.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,13 +24,13 @@ repository               : "bingshao333/bingshao333.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "bingshao333"
+  name             : "Bing Shao"
   pronouns         : # example: "she/her"  
-  bio              : "Web Developer & Designer"
-  location         : "Earth"
+  bio              : "AI Researcher"
+  location         : "Shanghai, China"
   employer         : ""
   uri              : # URL
-  email            : "bingshao333@gmail.com" 
+  email            : "bshao25@m.fudan.edu.cn" 
 
   # Academic websites
   academia         : # URL
@@ -44,7 +44,7 @@ author:
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
-  zotero           : # URL
+  zotero           : "https://www.zotero.org/bingshao"
 
 
   # Repositories and software development
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
