@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Bing Shao 邵兵"
 title_separator          : "-"
 name                     : &name "Bing Shao"
-description              : &description "AI Researcher"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Master’s student at Fudan University researching recursive self-improvement (RSI)."
 url                      : https://bingshao333.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -28,23 +28,23 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "AI Researcher"
   location         : "Shanghai, China"
-  employer         : ""
+  employer         : "Fudan University"
   uri              : # URL
   email            : "bshao25@m.fudan.edu.cn" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=VYpjMxkAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            :
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   researchgate     : # URL
   scopus           : # URL
-  zotero           : "https://www.zotero.org/bingshao"
+  zotero           :
 
 
   # Repositories and software development
@@ -166,6 +166,28 @@ include:
   - _pages
   - files
 exclude:
+  # Keep template examples in source without publishing them.
+  - _publications
+  - _talks
+  - _teaching
+  - _portfolio
+  - _posts
+  - _pages/archive-layout-with-content.md
+  - _pages/category-archive.html
+  - _pages/collection-archive.html
+  - _pages/cv-json.md
+  - _pages/cv.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/page-archive.html
+  - _pages/portfolio.html
+  - _pages/publications.html
+  - _pages/tag-archive.html
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _pages/terms.md
+  - _pages/year-archive.html
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
